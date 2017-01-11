@@ -15,5 +15,15 @@ public class App1
 		return result;
 	}
 	
+	public static int multiplica(int a, int b){
+		int result= a*b;
+		log.info("Returning "+a+"*"+b+"="+result);
+		return result;
+	}
 	
+	public static int suma(int a, int b){
+		int result=a-b;
+		log.info("Returning "+a+"*"+b+"="+result);
+		return result;
+	}
 }
